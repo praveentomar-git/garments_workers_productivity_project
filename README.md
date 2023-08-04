@@ -52,3 +52,7 @@ git pull origin main
 ```
 PROJECT COMPLETED
 ```
+### Heroku app link
+```
+https://garmentsworkersproductivityapp-3e5cc9ce814a.herokuapp.com/
+```
