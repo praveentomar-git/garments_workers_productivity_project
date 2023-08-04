@@ -1,5 +1,11 @@
 ### garments_workers_productivity_project
 
+### Software and account requirements.
+Github Account
+Heroku Account
+VS Code IDE
+Git cli
+
 ### To create virtual environment in the same folder 
 
 ```
@@ -48,6 +54,45 @@ git push origin main
 ```
 git pull origin main
 ```
+
+### To check remote url
+```
+git remote -v
+```
+
+### To set CI/CD pipeline in heroku we need 3 informations
+
+HEROKU_EMAIL = ch.praveentomar@gmail.com
+HEROKU_API_KEY = <>
+HEROKU_APP_NAME = garmentsworkersproductivityapp
+
+
+### BUILD DOCKER IMAGE
+
+docker build -t <image_name>:<tagname> .
+Note: Image name for docker must be lowercase
+
+### To list docker image
+
+docker images
+
+### RUN docker image
+
+docker run -p 5000:5000 -e PORT=5000 f89e99843ab3
+
+### To check running containers in docker
+
+docker ps
+
+### To stop any docker container
+
+docker stop <container_id>
+
+### Install setpy.py file
+```
+python setup.py install
+```
+
 
 ### Summary
 ```
